@@ -13,7 +13,7 @@ if (command === 'play') {
 additionalText = '𝘼𝙐𝘿𝙄𝙊 🔊'
 } else if (command === 'play2') {
 additionalText = '𝙑𝙄𝘿𝙀𝙊 🎥'}
-let captionvid = `〔 SPIDER BOT  〕
+let captionvid = `〔 𝘽𝙊𝙏 𝙁𝙉 𝙎𝙋𝙊𝙍𝙏𝙎  〕
 
 ও 𝙏𝙄𝙏𝙐𝙇𝙊 | 𝙏𝙄𝙏𝙇𝙀
 »  ${yt_play[0].title}
@@ -32,7 +32,7 @@ let captionvid = `〔 SPIDER BOT  〕
 ﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘﹘
 ও 𝙀𝙉𝙑𝙄𝘼𝘿𝙊 ${additionalText}, 𝘼𝙂𝙐𝘼𝙍𝘿𝙀 𝙐𝙉 𝙈𝙊𝙈𝙀𝙉𝙏𝙊
 
-*〔 SPIDER BOT  〕`  
+*〔 𝘽𝙊𝙏 𝙁𝙉 𝙎𝙋𝙊𝙍𝙏𝙎  〕`  
 await conn.sendMessage(m.chat, {
 text: captionvid,
 contextInfo: {
