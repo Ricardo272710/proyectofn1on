@@ -101,6 +101,9 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ┃🍬➺ .Fem6
 ┃🍬➺ .FemInterna4
 ┃🍬➺ .FemInterna6
+┃🌺➺ .vs8fem
+┃🌺➺ .vs12fem
+┃🌺➺ .scrimfem
 ┃🍬➺ .Masc4
 ┃🍬➺ .Masc6
 ┃🍬➺ .MascInterna4
@@ -173,6 +176,8 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ┃🫧➺ .dado
 ┃🫧➺ .verdad
 ┃🫧➺ .reto
+┃🫧➺ .anuel
+┃🫧➺ .ferxxo
 ╰━━━━━━━━━━━⬣
 
 ╭━━━[ AJUSTES - CHATS ]━━━⬣
