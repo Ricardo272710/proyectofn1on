@@ -11,4 +11,4 @@ handler.help = ['person']
 handler.tags = ['img']
 handler.command = ['persona', 'person']
 
-export default handler
+export default handler;
