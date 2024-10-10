@@ -1,12 +1,11 @@
-const handler = async (m, {conn}) => {
-  m.reply(global.Vs16);
-};
-handler.command = /^(Vs16)$/i;
-export default handler;
-handler.group = true
-handler.botAdmin = true
-
-global.Vs16 = `
+import fg from 'api-dylux' 
+import fetch from 'node-fetch'
+import { savefrom, facebookdl, facebookdlv2 } from '@bochilteam/scraper'
+import fbDownloader from 'fb-downloader-scrapper'
+import { facebook } from "@xct007/frieren-scraper"
+import axios from 'axios'
+let handler = async (m, { conn, args, command, usedPrefix }) => {
+if (!args[0]) throw `
 ╭──────⚔──────╮
 ㅤㅤ16 𝐕𝐄𝐑𝐒𝐔𝐒 16
 ╰──────⚔──────╯
@@ -50,4 +49,10 @@ global.Vs16 = `
 │⚜️ ➤ 
 ╰─────────────╯
                
-`;
+` 
+}
+handler.command = /^(vs16|16vs16)$/i
+handler.register = true
+handler.group = true
+handler.admin = true
+export default handler
